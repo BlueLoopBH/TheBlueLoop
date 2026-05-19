@@ -1,0 +1,165 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="880" viewBox="0 0 1800 880" role="img" aria-labelledby="title desc">
+  <title id="title">BlueLoop Website Structure Diagram</title>
+  <desc id="desc">A clean hierarchical sitemap for the BlueLoop website showing Home, main pages, sub pages, and sub categories.</desc>
+  <defs>
+    <style>
+      .bg { fill: #F7F9FB; }
+      .home-fill { fill: #05304A; stroke: #05304A; }
+      .page-fill { fill: #0E7490; stroke: #05304A; }
+      .sub-fill { fill: #DFF6FF; stroke: #05304A; }
+      .category-fill { fill: #FF6B6B; stroke: #05304A; }
+      .line { fill: none; stroke: #05304A; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+      .title { fill: #05304A; font-family: Arial, Helvetica, sans-serif; font-size: 44px; font-weight: 800; text-anchor: middle; }
+      .subtitle { fill: #05304A; font-family: Arial, Helvetica, sans-serif; font-size: 19px; font-weight: 700; text-anchor: middle; }
+      .label-light { fill: #F7F9FB; font-family: Arial, Helvetica, sans-serif; font-size: 24px; font-weight: 800; text-anchor: middle; dominant-baseline: middle; }
+      .label-dark { fill: #05304A; font-family: Arial, Helvetica, sans-serif; font-size: 19px; font-weight: 800; text-anchor: middle; dominant-baseline: middle; }
+      .label-small { fill: #05304A; font-family: Arial, Helvetica, sans-serif; font-size: 16px; font-weight: 800; text-anchor: middle; dominant-baseline: middle; }
+      .legend-text { fill: #05304A; font-family: Arial, Helvetica, sans-serif; font-size: 20px; font-weight: 800; dominant-baseline: middle; }
+    </style>
+    <marker id="arrow-navy" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#05304A"/>
+    </marker>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="1800" height="880"/>
+
+  <text class="title" x="900" y="64">BlueLoop Website Structure</text>
+  <!-- Legend -->
+  <g transform="translate(265 135)">
+    <rect class="sub-fill" x="0" y="0" width="1270" height="84" rx="24"/>
+    <rect class="home-fill" x="70" y="22" width="48" height="40" rx="12"/>
+    <text class="legend-text" x="140" y="42">Home</text>
+    <rect class="page-fill" x="330" y="22" width="48" height="40" rx="12"/>
+    <text class="legend-text" x="400" y="42">Main pages</text>
+    <rect class="sub-fill" x="640" y="22" width="48" height="40" rx="12"/>
+    <text class="legend-text" x="710" y="42">Sub pages</text>
+    <rect class="category-fill" x="940" y="22" width="48" height="40" rx="12"/>
+    <text class="legend-text" x="1010" y="42">Sub categories</text>
+  </g>
+
+
+  <!-- Home -->
+  <g id="home">
+    <rect class="home-fill" x="750" y="285" width="260" height="76" rx="24"/>
+    <text class="label-light" x="880" y="323">Home</text>
+  </g>
+
+  <!-- Main page connector spine -->
+  <line class="line" x1="880" y1="360" x2="880" y2="425"/>
+  <line class="line" x1="190" y1="425" x2="1570" y2="425"/>
+
+  <!-- About -->
+  <g transform="translate(90 460)">
+    <line class="line" x1="100" y1="-35" x2="100" y2="0"/>
+    <rect class="page-fill" x="0" y="0" width="200" height="64" rx="18"/>
+    <text class="label-light" x="100" y="32">About</text>
+    <line class="line" x1="100" y1="64" x2="100" y2="100"/>
+    <rect class="category-fill" x="5" y="100" width="190" height="50" rx="14"/>
+    <text class="label-small" x="100" y="125">Mission</text>
+    <line class="line" x1="100" y1="150" x2="100" y2="176"/>
+    <rect class="category-fill" x="5" y="176" width="190" height="50" rx="14"/>
+    <text class="label-small" x="100" y="201">Values</text>
+    <line class="line" x1="100" y1="226" x2="100" y2="252"/>
+    <rect class="category-fill" x="5" y="252" width="190" height="64" rx="14"/>
+    <text class="label-small" x="100" y="276">Marine</text>
+    <text class="label-small" x="100" y="299">protection</text>
+  </g>
+
+  <!-- Problem -->
+  <g transform="translate(320 460)">
+    <line class="line" x1="100" y1="-35" x2="100" y2="0"/>
+    <rect class="page-fill" x="0" y="0" width="200" height="64" rx="18"/>
+    <text class="label-light" x="100" y="32">Problem</text>
+    <line class="line" x1="100" y1="64" x2="100" y2="100"/>
+    <rect class="category-fill" x="5" y="100" width="190" height="50" rx="14"/>
+    <text class="label-small" x="100" y="125">Pollution issue</text>
+    <line class="line" x1="100" y1="150" x2="100" y2="176"/>
+    <rect class="category-fill" x="5" y="176" width="190" height="50" rx="14"/>
+    <text class="label-small" x="100" y="201">Impact areas</text>
+    <line class="line" x1="100" y1="226" x2="100" y2="252"/>
+    <rect class="category-fill" x="5" y="252" width="190" height="50" rx="14"/>
+    <text class="label-small" x="100" y="277">Call to action</text>
+  </g>
+
+  <!-- Campaigns -->
+  <g transform="translate(550 460)">
+    <line class="line" x1="100" y1="-35" x2="100" y2="0"/>
+    <rect class="page-fill" x="0" y="0" width="200" height="64" rx="18"/>
+    <text class="label-light" x="100" y="32">Campaigns</text>
+    <line class="line" x1="100" y1="64" x2="100" y2="100"/>
+    <rect class="category-fill" x="5" y="100" width="190" height="50" rx="14"/>
+    <text class="label-small" x="100" y="125">Featured campaign</text>
+    <line class="line" x1="100" y1="150" x2="100" y2="176"/>
+    <rect class="category-fill" x="5" y="176" width="190" height="50" rx="14"/>
+    <text class="label-small" x="100" y="201">Campaign cards</text>
+    <line class="line" x1="100" y1="226" x2="100" y2="252"/>
+    <rect class="category-fill" x="5" y="252" width="190" height="50" rx="14"/>
+    <text class="label-small" x="100" y="277">Timeline</text>
+  </g>
+
+  <!-- Report Pollution -->
+  <g transform="translate(780 460)">
+    <line class="line" x1="100" y1="-35" x2="100" y2="0"/>
+    <rect class="page-fill" x="-12" y="0" width="224" height="64" rx="18"/>
+    <text class="label-light" x="100" y="32">Report Pollution</text>
+    <line class="line" x1="100" y1="64" x2="100" y2="100"/>
+    <rect class="category-fill" x="5" y="100" width="190" height="50" rx="14"/>
+    <text class="label-small" x="100" y="125">Report form</text>
+    <line class="line" x1="100" y1="150" x2="100" y2="176"/>
+    <rect class="category-fill" x="5" y="176" width="190" height="50" rx="14"/>
+    <text class="label-small" x="100" y="201">Upload evidence</text>
+    <line class="line" x1="100" y1="226" x2="100" y2="252"/>
+    <rect class="category-fill" x="5" y="252" width="190" height="50" rx="14"/>
+    <text class="label-small" x="100" y="277">Reporting steps</text>
+  </g>
+
+  <!-- Rewards -->
+  <g transform="translate(1010 460)">
+    <line class="line" x1="100" y1="-35" x2="100" y2="0"/>
+    <rect class="page-fill" x="0" y="0" width="200" height="64" rx="18"/>
+    <text class="label-light" x="100" y="32">Rewards</text>
+    <line class="line" x1="100" y1="64" x2="100" y2="100"/>
+    <rect class="category-fill" x="5" y="100" width="190" height="50" rx="14"/>
+    <text class="label-small" x="100" y="125">Points system</text>
+    <line class="line" x1="100" y1="150" x2="100" y2="176"/>
+    <rect class="category-fill" x="5" y="176" width="190" height="50" rx="14"/>
+    <text class="label-small" x="100" y="201">Reward examples</text>
+    <line class="line" x1="100" y1="226" x2="100" y2="252"/>
+    <rect class="category-fill" x="5" y="252" width="190" height="50" rx="14"/>
+    <text class="label-small" x="100" y="277">FAQ</text>
+  </g>
+
+  <!-- Data Insights -->
+  <g transform="translate(1240 460)">
+    <line class="line" x1="100" y1="-35" x2="100" y2="0"/>
+    <rect class="page-fill" x="-10" y="0" width="220" height="64" rx="18"/>
+    <text class="label-light" x="100" y="32">Data Insights</text>
+    <line class="line" x1="100" y1="64" x2="100" y2="100"/>
+    <rect class="category-fill" x="5" y="100" width="190" height="50" rx="14"/>
+    <text class="label-small" x="100" y="125">Dashboard cards</text>
+    <line class="line" x1="100" y1="150" x2="100" y2="176"/>
+    <rect class="category-fill" x="5" y="176" width="190" height="50" rx="14"/>
+    <text class="label-small" x="100" y="201">Charts</text>
+    <line class="line" x1="100" y1="226" x2="100" y2="252"/>
+    <rect class="category-fill" x="5" y="252" width="190" height="50" rx="14"/>
+    <text class="label-small" x="100" y="277">Business insights</text>
+  </g>
+
+  <!-- Contact -->
+  <g transform="translate(1470 460)">
+    <line class="line" x1="100" y1="-35" x2="100" y2="0"/>
+    <rect class="page-fill" x="0" y="0" width="200" height="64" rx="18"/>
+    <text class="label-light" x="100" y="32">Contact</text>
+    <line class="line" x1="100" y1="64" x2="100" y2="100"/>
+    <rect class="category-fill" x="5" y="100" width="190" height="50" rx="14"/>
+    <text class="label-small" x="100" y="125">Contact form</text>
+    <line class="line" x1="100" y1="150" x2="100" y2="176"/>
+    <rect class="category-fill" x="5" y="176" width="190" height="50" rx="14"/>
+    <text class="label-small" x="100" y="201">Contact details</text>
+    <line class="line" x1="100" y1="226" x2="100" y2="252"/>
+    <rect class="category-fill" x="5" y="252" width="190" height="64" rx="14"/>
+    <text class="label-small" x="100" y="276">Follow BlueLoop</text>
+    <text class="label-small" x="100" y="299">socials</text>
+  </g>
+
+</svg>
